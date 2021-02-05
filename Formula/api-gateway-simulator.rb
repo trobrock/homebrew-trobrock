@@ -1,7 +1,7 @@
 class ApiGatewaySimulator < Formula
   desc 'a local dev simulator for API gateway -> lambda'
   homepage 'https://github.com/trobrock/api-gateway-simulator'
-  url 'https://github.com/trobrock/api-gateway-simulator.git', tag: '1.0.0'
+  url 'https://github.com/trobrock/api-gateway-simulator.git', tag: '2.0.1'
 
   head 'https://github.com/trobrock/api-gateway-simulator.git'
 
