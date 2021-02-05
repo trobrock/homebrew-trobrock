@@ -6,6 +6,7 @@ class RemoteRails < Formula
   head 'https://github.com/trobrock/remote-rails.git', branch: 'main'
 
   depends_on 'jq'
+  depends_on 'nmap'
 
   def install
     bin.install "bin/remote-rails"
