@@ -1,7 +1,7 @@
 class RemoteRails < Formula
   desc 'A CLI tool for interacting with a rail app in ECS'
   homepage 'https://github.com/trobrock/remote-rails'
-  url 'https://github.com/trobrock/remote-rails.git', tag: '1.0.1'
+  url 'https://github.com/trobrock/remote-rails.git', tag: '1.0.2'
 
   head 'https://github.com/trobrock/remote-rails.git', branch: 'main'
 
