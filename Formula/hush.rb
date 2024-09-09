@@ -1,8 +1,8 @@
 class Hush < Formula
   desc "Shush like tool, but CLI based"
   homepage "https://github.com/trobrock/hush"
-  url "https://github.com/trobrock/hush/archive/refs/tags/v0.0.2.tar.gz"
-  sha256 "3f101e731e15adaca17cdc343ed000d24f929322ef3be03ae6000b0bbf9c2ba9"
+  url "https://github.com/trobrock/hush/archive/refs/tags/v0.0.3.tar.gz"
+  sha256 "c0cf1abda442a896570ef0f8fec3e71fd57c312af782b51bd91a137121170747"
   license "MIT"
 
   depends_on "go" => :build
