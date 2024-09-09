@@ -14,4 +14,11 @@ class Hush < Formula
   test do
     system "#{bin}/hush", "--help"
   end
+
+  service do
+    run [opt_bin/"hush"]
+    keep_alive true
+    log_path var/"log/hush.log"
+    error_log_path var/"log/hush.log"
+  end
 end
